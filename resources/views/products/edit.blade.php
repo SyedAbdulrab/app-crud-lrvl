@@ -41,41 +41,41 @@
         </script>
         
 
-        <h1>Create A Product</h1>
+        <h1>Edit A Product</h1>
         
         <div class="mb-4">
             <a href="{{ route('product.index') }}" class="btn btn-success">All Products</a>
         </div>
-        <form method="post" action="{{route('product.store')}}">
+        <form method="post" action="{{ route('product.update',["product"=>$product]) }}">
             @csrf
-            @method('post')
+            @method('put')
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" name="name" id="name" placeholder="name" />
+                <input type="text" class="form-control" name="name" id="name" value="{{$product->name}}" />
                 <small id="helpId" class="form-text text-muted">Enter thy name here, sire</small>
             </div>
 
             <div class="mb-3">
                 <label for="qty" class="form-label">quantity</label>
-                <input type="number" class="form-control" name="qty" id="qty" placeholder="qty" />
+                <input type="number" class="form-control" name="qty" id="qty" placeholder="qty" value="{{$product->qty}}" />
                 <small id="helpId" class="form-text text-muted">Enter thy qty here, sire</small>
             </div>
 
             <div class="mb-3">
                 <label for="price" class="form-label">price</label>
-                <input type="number" class="form-control" name="price" id="price" placeholder="price" />
+                <input type="number" class="form-control" name="price" id="price" placeholder="price" value="{{$product->price}}"/>
                 <small id="helpId" class="form-text text-muted">Enter thy price here, sire</small>
             </div>
 
             <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
-                <input type="text" class="form-control" name="description" id="description" placeholder="description" />
+                <input type="text" class="form-control" name="description" id="description" placeholder="description" value="{{$product->description}}"/>
                 <small id="helpId" class="form-text text-muted">Enter thy description here, sire</small>
             </div>
 
             <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-primary">
-                    Save a new Product
+                    Update Product
                 </button>
             </div>
 
