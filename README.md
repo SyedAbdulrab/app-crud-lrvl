@@ -13,10 +13,18 @@ This is a CRUD (Create, Read, Update, Delete) application built with Laravel. It
 - **Delete:** Remove products from the database.
 
 ## User Interface
-All products Page
+- All products Page
 
-![image](https://github.com/SyedAbdulrab/app-crud-lrvl/assets/99114574/fb507084-66a8-4dd7-ae1d-c43dbb4d4123)
+  ![image](https://github.com/SyedAbdulrab/app-crud-lrvl/assets/99114574/fb507084-66a8-4dd7-ae1d-c43dbb4d4123)
 
+- Create Product Page
+  ![image](https://github.com/SyedAbdulrab/app-crud-lrvl/assets/99114574/44b1da79-c757-4ec1-9afb-06f0dadfe39c)
+
+- Edit Product Page
+  ![image](https://github.com/SyedAbdulrab/app-crud-lrvl/assets/99114574/4ba7917e-aa3e-4672-a0c0-44e1d6233242)
+
+- Error Handling
+  ![image](https://github.com/SyedAbdulrab/app-crud-lrvl/assets/99114574/ac346f5d-482e-4271-9082-e9f34cb233dc)
 
 ## Getting Started
 
