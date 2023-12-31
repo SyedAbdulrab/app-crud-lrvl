@@ -26,6 +26,10 @@ This is a CRUD (Create, Read, Update, Delete) application built with Laravel. It
 - Error Handling
   ![image](https://github.com/SyedAbdulrab/app-crud-lrvl/assets/99114574/ac346f5d-482e-4271-9082-e9f34cb233dc)
 
+- Product Deletion
+  ![image](https://github.com/SyedAbdulrab/app-crud-lrvl/assets/99114574/4933cd9b-3b8f-448f-94e5-62b8dc61662e)
+
+
 ## Getting Started
 
 These instructions will help you set up and run the Laravel CRUD application on your local machine.
