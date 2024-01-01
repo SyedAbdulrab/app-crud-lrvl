@@ -5,7 +5,7 @@
 
 This is a CRUD (Create, Read, Update, Delete) application built with Laravel. It allows you to manage products, including creating, viewing, updating, and deleting product records.
 
-## Features
+##  Features
 
 - **Create:** Add new products to the database.
 - **Read:** View a list of existing products with details.
